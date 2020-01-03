@@ -1,5 +1,4 @@
-# Yeabsira M. Lemma
-# Worked with Taha Afzal
+# By Yeabsira M. Lemma
 
 library(RCurl)
 library(RJSONIO)
@@ -8,7 +7,7 @@ library(leaflet)
 library(RColorBrewer)
 library(jsonlite)
 
-#get all the URLs
+#get all the necessary URLs
 urlPastHour = getURL("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson")
 urlPastDay = getURL("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson")
 urlPastWeek = getURL("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson")
